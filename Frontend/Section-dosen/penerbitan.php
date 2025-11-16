@@ -269,33 +269,6 @@
     </div>
   </footer>
 
-  <!-- POPUP RIWAYAT -->
-  <div
-    class="modal fade"
-    id="riwayatModal"
-    tabindex="-1"
-    aria-labelledby="riwayatModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content rounded-4 shadow-lg bg-dark text-white">
-        <div class="modal-header border-0">
-          <h4 class="modal-title fw-bold text-center w-100">
-            Riwayat Penerbitan
-          </h4>
-          <button
-            type="button"
-            class="btn-close btn-close-white"
-            data-bs-dismiss="modal"
-          ></button>
-        </div>
-        <div class="modal-body">
-          <div id="riwayatList" class="list-group list-group-flush"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <script src="../style/js/bootstrap.bundle.min.js"></script>
 
 </body>
