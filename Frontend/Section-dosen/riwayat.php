@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"rel="stylesheet"/>
   <link href="../style/icons/bootstrap-icons.css" rel="stylesheet">
   <script src="../style/sweetalert/sweetalert2.all.min.js"></script>
-  <link href="../style/ext.css" rel="stylesheet">
+  <link href="../style/extadmin.css" rel="stylesheet">
 
 </head>
 
@@ -41,16 +41,17 @@
 
     <!-- ISI NAVBAR KANAN-->
     <div class="d-none d-lg-flex align-items-center gap-3 order-lg-2">
+      <a href="../Section-dosen/penerbitan.php" class="text-white fw-bold" style="text-decoration: none;" id="home">BERANDA</a>
       
       <!-- Dropdown Profil -->
       <div class="dropdown">
         <button class="btn p-0 border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background: none;">
-          <img src="/Frontend/Foto/Profil-Logo.png" width="50" class="rounded-circle border border-2 border-white" alt="Profil">
+          <img src="../Foto/Profil-Logo.png" width="50" class="rounded-circle border border-2 border-white" alt="Profil">
         </button>
         <ul class="dropdown-menu dropdown-menu-end shadow text-center">
           <li><p class="mb-1 fw-semibold">Affatha Rizky Sena</p></li>
-          <li><hr class="my-1"></li>
-          <li><button class="dropdown-item text-danger fw-bold">LOGOUT</button></li>
+          <li><hr class="my-1 fs-1">3312501117</li>
+          <li><button class="dropdown-item text-danger fw-bold mt-3"><i class="bi bi-box-arrow-left"></i>Keluar</button></li>
         </ul>
       </div>
     </div>
@@ -77,13 +78,12 @@
           class="list-group-item list-group-item-action fw-semibold btn btn-light mb-3"
           id="lihatRiwayatMobile"
           data-bs-dismiss="offcanvas"
-          >📜 Riwayat</a
+          >📜 Beranda</a
         >
         <button
           class="list-group-item list-group-item-action text-danger fw-bold btn btn-light"
-          data-bs-dismiss="offcanvas"
-        >
-          🚪 Logout
+          data-bs-dismiss="offcanvas">
+          <i class="bi bi-box-arrow-left"></i> Keluar
         </button>
       </div>
     </div>
