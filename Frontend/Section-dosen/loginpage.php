@@ -8,10 +8,9 @@
   <link href="../style/css/bootstrap.min.css" rel="stylesheet">
   <script src="../style/sweetalert/sweetalert2.all.min.js"></script>
   <link href="../style/ext.css" rel="stylesheet">
-
 </head>
-<body class="d-flex align-items-center justify-content-center py-5">
 
+<body class="d-flex align-items-center justify-content-center py-5">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-11 col-sm-8 col-md-6 col-lg-4">
