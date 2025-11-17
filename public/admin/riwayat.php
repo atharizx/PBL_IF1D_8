@@ -41,12 +41,12 @@
 
     <!-- ISI NAVBAR KANAN-->
     <div class="d-none d-lg-flex align-items-center gap-3 order-lg-2">
-      <a href="../Section-dosen/penerbitan.php" class="text-white fw-bold" style="text-decoration: none;" id="home">BERANDA</a>
+      <a href="../admin/penerbitan.php" class="text-white fw-bold" style="text-decoration: none;" id="home">BERANDA</a>
       
       <!-- Dropdown Profil -->
       <div class="dropdown">
         <button class="btn p-0 border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background: none;">
-          <img src="../Foto/Profil-Logo.png" width="50" class="rounded-circle border border-2 border-white" alt="Profil">
+          <img src="../assets/Profil-Logo.png" width="50" alt="Profil">
         </button>
         <ul class="dropdown-menu dropdown-menu-end shadow text-center">
           <li><p class="mb-1 fw-semibold">Affatha Rizky Sena</p></li>
