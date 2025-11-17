@@ -11,13 +11,13 @@
 </head>
 
 <body class="d-flex align-items-center justify-content-center py-5">
-  <div class="container">
+  <form class="container" method="post" action="#">
     <div class="row justify-content-center">
       <div class="col-11 col-sm-8 col-md-6 col-lg-4">
         <div class="card p-4 text-center">
           <div class="card-body">
             <img src="https://sim.polibatam.ac.id/assets/img_sim/d8f9867f-23a7-4558-974b-d3c03a621fa3.png" 
-                 alt="Logo Polibatam" class="logo mb-3 w-25">
+                 alt="Logo Polibatam" class="logo mb-3 w-50">
             <h4 class="fw-bold mb-2">Portal Penerbitan Informasi</h4>
             <p class="text-muted mb-4">Silahkan isi NIDN dan Password Anda</p>
 
@@ -38,7 +38,7 @@
         </div>
       </div>
     </div>
-  </div>
+</form>
 
   <script src="../style/js/bootstrap.bundle.js"></script>
 </body>
