@@ -11,9 +11,9 @@ session_start();
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portal Login</title>
   <link rel="icon" type="png" href="https://sim.polibatam.ac.id/assets/img_sim/d8f9867f-23a7-4558-974b-d3c03a621fa3.png">
-  <link href="../style/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../vendor/boostrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="../style/extlogin.css" rel="stylesheet">
-  <script src="../style/sweetalert/sweetalert2.all.min.js"></script>
+  <script src="../vendor/sweetalert/sweetalert/sweetalert2.all.min.js"></script>
 </head>
 
 <body class="d-flex align-items-center justify-content-center py-5">
@@ -46,14 +46,15 @@ session_start();
     </div>
   </div>
 
-  <script src="../style/js/bootstrap.bundle.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  
   <?php if (isset($_SESSION['login_error'])) : ?>
     <script>
       Swal.fire({
         icon: 'error',
         title: 'Login Gagal',
         text: '<?= $_SESSION['login_error'] ?>',
-        timer: 1600,
+        timer: 1200,
         showConfirmButton: false
       });
     </script>
